@@ -36,8 +36,6 @@ main():
 def total, average as double
 def numGrades, AvgCount as integer
 def standard grades() As string
-
-
 If numGrades > 0 Then
   average = total / numGrades
    AvgCount = 0
@@ -45,3 +43,6 @@ If numGrades > 0 Then
        If tmpGrades(itr) > average Then
            AvgCount += 1
         End if
+main():
+    initialize (kickstart)
+    calculate_percent_above_average()
